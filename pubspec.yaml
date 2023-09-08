@@ -1,0 +1,106 @@
+name: g_tracker
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  google_fonts: ^4.0.3
+  smooth_page_indicator: ^1.0.1
+  flutter_screenutil: ^5.6.1
+  intl_phone_number_input: ^0.7.2
+  otp_text_field: ^1.1.3
+  pin_code_view: ^0.3.0+2
+  image_picker: ^0.8.6+1
+  date_picker_timeline: ^1.2.3
+  intl_phone_field: ^3.1.0
+  google_maps_flutter: ^2.2.3
+  flutter_polyline_points: ^1.0.0
+  http: ^0.13.5
+  intl: ^0.17.0
+  pin_code_fields: ^7.4.0
+  multiselect: ^0.0.7
+  easy_geofencing: ^0.2.0
+  slide_action: ^0.0.2
+  poly_geofence_service: ^1.6.0
+  country_state_city_picker: ^1.2.8
+  geocoding: ^2.0.5
+  geolocator: ^7.7.1
+  fluttertoast: ^8.1.3
+  location: ^4.4.0
+  firebase_core: ^2.6.1
+  firebase_messaging: ^14.2.4
+  device_info_plus: ^8.1.0
+  platform_device_id: ^1.0.1
+  json_annotation: ^4.8.0
+  qr_code_scanner: ^1.0.1
+  cached_network_image: ^3.2.3
+  flutter_riverpod: ^2.2.0
+  flutter_switch: ^0.3.2
+
+  freezed_annotation:
+  dcbase:
+    git:
+      url: "https://ravindra6016@github.com/BytecipherGit/dcbase.git"
+      ref: "241337e"
+  image: ^4.0.15
+  provider: ^6.0.5
+  workmanager: ^0.5.1
+  sqflite: ^2.2.6
+  uuid: ^3.0.7
+#  flutter_background_geolocation: ^4.10.2
+#  background_fetch: ^1.1.5
+  background_location: ^0.8.1
+  webview_flutter: ^4.2.0
+#  pinput: ^2.2.31
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  json_serializable: ^6.6.1
+  build_runner: ^2.3.3
+  flutter_local_notifications: ^13.0.0
+  freezed:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Proza Libre
+  #     fonts:
+  #       - asset: assets/fonts/ProzaLibre-Regular.ttf
+  #       - asset: assets/fonts/ProzaLibre-Bold.ttf
+  #         style: normal
+  #         weight: 700
+#    - family: Trajan Pro
+#      fonts:
+#        - asset: fonts/TrajanPro.ttf
+#        - asset: fonts/TrajanPro_Bold.ttf
+#          weight: 700
+
+# For details regarding fonts from package dependencies,
+# see https://flutter.dev/custom-fonts/#from-packages
